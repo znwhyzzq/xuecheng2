@@ -1,0 +1,7 @@
+# 项目排除路径
+/xuecheng-plus-base/target/
+/xuecheng-plus-content/xuecheng-plus-content-api/target/
+/xuecheng-plus-content/xuecheng-plus-content-model/target/
+/xuecheng-plus-content/xuecheng-plus-content-service/target/
+/xuecheng-plus-generator/target/
+/xuecheng-plus-parent/target/
