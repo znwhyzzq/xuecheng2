@@ -2,7 +2,7 @@ package com.xuecheng.content.model.po;
 
 import java.io.Serializable;
 import lombok.Data;
-import com.baomidou.mybatisplus.annotation.TableName;
+import lombok.EqualsAndHashCode;
 
 /**
  * <p>
@@ -10,9 +10,10 @@ import com.baomidou.mybatisplus.annotation.TableName;
  * </p>
  *
  * @author itcast
+ * @since 2023-03-02
  */
 @Data
-@TableName("course_market")
+@EqualsAndHashCode(callSuper = false)
 public class CourseMarket implements Serializable {
 
     private static final long serialVersionUID = 1L;
